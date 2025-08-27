@@ -1,39 +1,32 @@
 {
   "ads": {
+    "enabled": true,
     "banner": true,
     "interstitial": true,
-    "rewarded": true
-  },
-  "features": {
-    "iap": true,
-    "advancedExercises": true
+    "rewarded": true,
+    "interstitialEvery": 3,
+    "rewardedEvery": 5
   },
   "iap": {
     "subscriptionSku": "premium_subscription",
-    "subscriptionPrice": "4.99",
+    "subscriptionPrice": "$4.99",
     "lifetimeSku": "premium_lifetime",
-    "lifetimePrice": "19.99"
+    "lifetimePrice": "$19.99"
   },
   "quiz": {
-    "interstitialEvery": 3,
-    "rewardEvery": 5,
-    "hintMessage": "فكّر فالعملية الرياضية بشكل أبسط"
+    "hintMessage": "Hint: جرّب تقرّب للجواب الصحيح!",
+    "interstitialEvery": 3
+  },
+  "features": {
+    "ads": true,
+    "iap": true,
+    "advancedExercises": true
   },
   "locale": {
     "default": "ar",
     "allowSystem": true
   },
   "store": {
-    "packageName": "com.example.adaptedmath",
-    "rateUrl": "https://www.amazon.com/gp/mas/dl/android?p=com.example.adaptedmath",
-    "shareText": "جرّب تطبيق AdaptedMath الآن!"
-  },
-  "mintegral": {
-    "appId": "XXXX",
-    "appKey": "YYYY",
-    "bannerUnitId": "BANNER_ID",
-    "interstitialUnitId": "INTER_ID",
-    "rewardedUnitId": "REWARD_ID",
-    "enabled": true
+    "packageName": "com.example.adaptedmath"
   }
 }
